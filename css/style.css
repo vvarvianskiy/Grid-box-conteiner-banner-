@@ -44,8 +44,6 @@ body{
   height: 100vh; */
 }
 
-
-
 .item-child:nth-child(1),
 .item-child:nth-child(3){
   grid-column: span 2;
@@ -56,6 +54,8 @@ body{
 .item-child:nth-child(2){
   grid-column: span 3;
   grid-row: span 3;
+  background-image: url('banner preview_00000.png');
+  background-size: 100% 100%;
 }
 
 .item-child:nth-child(5){
@@ -68,8 +68,21 @@ body{
   grid-row: span 2;
 }
 
+.text-box{
+  position: relative;
+  color: rgb(251, 255, 0);
+  background-size: 100% 100%;
+  margin-top: 100px;
+  
 
-
+  
+  /* margin: 25px 0 0 5px; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15% 30% 13% 3%; */
+}
 
 
 
